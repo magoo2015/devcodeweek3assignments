@@ -28,11 +28,7 @@ new_string_word = string_word.capitalize() # can use captilize() to capitalize f
 split_string_word = string_word.split(" ") #A loop should help now.
 
 def capitilize(words):
-    new_capitilized_word = ""
-    new_split_word = words.split(" ")
-
-    for word in new_split_word:
-        new_capitilized_word += word.capitalize()
-    return new_capitilized_word
-
+    new_word = words.title()
+    return new_word
+#This capitalizes each word but its just one word....
 #capitilize("hello world")
