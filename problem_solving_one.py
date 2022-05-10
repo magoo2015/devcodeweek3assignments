@@ -53,8 +53,21 @@ def compression(compression_string):
 
 #So far this list each string.  Need to figure out count.
     for i in range(len(compression_string) -1):
-        print(compression_string[i])
+        if compression_string[i] == compression_string[i +1]:
+            string_count += 1
 
 
+"""Write code that takes a user input and checks to see if it is a palindrome and reports the results"""
+#Get user input in main.py
+#Get reverse word stored in variable
+#https://www.w3schools.com/python/python_howto_reverse_string.asp  Use [::1] to print string in reverse
 
-
+def plaindrome(word):
+    new_word = word[::-1]
+    
+    if word == new_word:
+        print(f"Your {word} is a palindrome: {new_word}")
+    else:
+        print(f"Your {word} is not a palindrome: {new_word}")
+    
+    

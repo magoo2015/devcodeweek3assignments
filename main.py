@@ -1,4 +1,4 @@
-from problem_solving_one import capitilize, compression, reverse
+from problem_solving_one import capitilize, compression, reverse, plaindrome
 
 #reverse("Sydney")
 
@@ -7,4 +7,7 @@ from problem_solving_one import capitilize, compression, reverse
 
 #print(capitalized_word)
 
-compressed_string = compression("Rhannell")
+#compressed_string = compression("Rhannell")
+
+plaindrome(input("Please insert word here: "))
+
