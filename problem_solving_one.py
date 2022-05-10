@@ -32,3 +32,15 @@ def capitilize(words):
     return new_word
 #This capitalizes each word but its just one word....
 #capitilize("hello world")
+
+
+"""
+3.	Compress a string of characters
+a.	For example, an input of "aaabbbbbccccaacccbbbaaabbbaaa" would compress to "3a5b4c2a3c3b3a3b3a"
+
+"""
+
+def compression(compression_string):
+    pass
+
+
