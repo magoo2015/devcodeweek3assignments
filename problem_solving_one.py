@@ -62,12 +62,12 @@ def compression(compression_string):
 #Get reverse word stored in variable
 #https://www.w3schools.com/python/python_howto_reverse_string.asp  Use [::1] to print string in reverse
 
-def plaindrome(word):
+def palindrome(word):
     new_word = word[::-1]
     
     if word == new_word:
-        print(f"Your {word} is a palindrome: {new_word}")
+        print(f"Your word {word}, is a palindrome: {new_word}")
     else:
-        print(f"Your {word} is not a palindrome: {new_word}")
+        print(f"Your word {word}, is not a palindrome: {new_word}")
     
     

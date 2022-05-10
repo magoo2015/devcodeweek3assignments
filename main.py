@@ -1,4 +1,4 @@
-from problem_solving_one import capitilize, compression, reverse, plaindrome
+from problem_solving_one import capitilize, compression, reverse, palindrome
 
 #reverse("Sydney")
 
@@ -9,5 +9,5 @@ from problem_solving_one import capitilize, compression, reverse, plaindrome
 
 #compressed_string = compression("Rhannell")
 
-plaindrome(input("Please insert word here: "))
+palindrome(input("Please insert word here: "))
 
