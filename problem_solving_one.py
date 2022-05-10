@@ -39,8 +39,22 @@ def capitilize(words):
 a.	For example, an input of "aaabbbbbccccaacccbbbaaabbbaaa" would compress to "3a5b4c2a3c3b3a3b3a"
 
 """
+#Iterate through string and count same characters add to new string/list
+#Count identical characters
+#If next character is different restart count
+#Need to a first char to holder then start loop
+
 
 def compression(compression_string):
-    pass
+    string_holder = ""
+    string_count = 1
+
+    string_holder += compression_string[0]
+
+#So far this list each string.  Need to figure out count.
+    for i in range(len(compression_string) -1):
+        print(compression_string[i])
+
+
 
 

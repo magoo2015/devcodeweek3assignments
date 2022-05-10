@@ -1,4 +1,4 @@
-from problem_solving_one import capitilize, compress, reverse
+from problem_solving_one import capitilize, compression, reverse
 
 #reverse("Sydney")
 
@@ -8,4 +8,3 @@ from problem_solving_one import capitilize, compress, reverse
 #print(capitalized_word)
 
 compressed_string = compression("Rhannell")
-    
