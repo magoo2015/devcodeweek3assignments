@@ -7,7 +7,8 @@ from problem_solving_one import capitilize, compression, reverse, palindrome
 
 #print(capitalized_word)
 
-#compressed_string = compression("Rhannell")
 
-palindrome(input("Please insert word here: "))
+compressed_string = compression("aasbbc")
+
+#palindrome(input("Please insert word here: "))
 

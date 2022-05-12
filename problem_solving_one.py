@@ -5,6 +5,9 @@ b.	i.e. “Hello” will be returned as “olleH”
 
 """
 
+from itertools import count
+
+
 def reverse(word): # parameter will be string taken from input within function
     reversed_word = "" #empty string to hold characters from loop
 
@@ -55,6 +58,20 @@ def compression(compression_string):
     for i in range(len(compression_string) -1):
         if compression_string[i] == compression_string[i +1]:
             string_count += 1
+        elif compression_string[i] != compression_string[i +1] and string_count > 1:
+            string_holder += str(string_count)
+            string_holder += compression_string[i +1]
+            string_count = 1
+
+            
+
+
+
+
+
+
+
+
 
 
 """Write code that takes a user input and checks to see if it is a palindrome and reports the results"""
